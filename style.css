@@ -1,0 +1,75 @@
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+.container{
+    max-width: 80%;
+    /* color: black; */
+    /* background-color: aqua; */
+padding: 5px;
+margin: auto;
+
+}
+.container h3{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    font-size: 20px;     
+    font-family: 'Libre Baskerville', serif; ;  
+    color: rgb(92, 17, 17);
+}
+.submitmsg{
+    font-size: 25px;
+    color: rgb(18, 238, 18);
+}
+input ,textarea{
+    
+    display: block;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    width: 80%;
+    margin: 11px;
+    padding: 13px;
+
+
+}
+h3{
+    font-size: 29px;
+}
+form {
+     color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+/* .btn{
+    color: white;
+    background: red;
+    padding: 8px 12px;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+} */
+.bg{
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+.container uiet{
+    color: red;
+    font-size: 25px;
+}
+.container uiet hr{
+    color: red;
+}
